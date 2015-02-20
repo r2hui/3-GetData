@@ -6,6 +6,8 @@ There were 6 activities, labelled 1 to 6 in the "activity" column.
 561 measurements (not raw data) are found within the 561 columns.
 There are 2 sets: test and train, with different number of observations.
 
+Required R packages: reshape, reshape2
+
 The first step of the script is to combine all the data, along with pertinent measurement descriptions names in the columns.
 
 The second step is to extract a smaller subset of the data that includes only mean and standard deviation data.
