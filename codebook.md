@@ -1,41 +1,56 @@
-DATA DICTIONARY
+DATA DICTIONARY OF FINAL.TXT (Note that intermediary data frame is not included)
 
-1- "subject"
+Units for acceleration: m/s^2
 
-2- "activity"
+Abbreviations for Measurements (columns 3:20)
+f - frequency domain
+t - time domain
+Body - measured from body
+Acc - accelerometer
+Gyro - gyroscope
+Jerk - resulting from sudden motion
+Gravity - resulting from fall with gravity
+Mag - magnitude (all measurements)
+.me - average
+.s - standard deviation
 
-3- "fBodyAccMag.me" 
+COLUMNS
+1- "subject" int (1:30): identification of volunteers who performed experiment
 
-4- "fBodyAccMag.s"  
+2- "activity" chr ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"): activities performed
 
-5- "fBodyBodyAccJerkMag.me"
+3- "fBodyAccMag.me" num: 
 
-6- "fBodyBodyAccJerkMag.s" 
+4- "fBodyAccMag.s" num:
 
-7- "fBodyBodyGyroJerkMag.me" 
+5- "fBodyBodyAccJerkMag.me" num:
 
-8- "fBodyBodyGyroJerkMag.s"
+6- "fBodyBodyAccJerkMag.s" num:
 
-9- "fBodyBodyGyroMag.me"
+7- "fBodyBodyGyroJerkMag.me" num:
 
-10- "fBodyBodyGyroMag.s"  
+8- "fBodyBodyGyroJerkMag.s" num:
 
-11- "tBodyAccJerkMag.me" 
+9- "fBodyBodyGyroMag.me" num:
 
-12- "tBodyAccJerkMag.s"
+10- "fBodyBodyGyroMag.s" num:
 
-13- "tBodyAccMag.me" 
+11- "tBodyAccJerkMag.me" num:
 
-14- "tBodyAccMag.s" 
+12- "tBodyAccJerkMag.s" num:
 
-15- "tBodyGyroJerkMag.me"
+13- "tBodyAccMag.me" num:
 
-16- "tBodyGyroJerkMag.s" 
+14- "tBodyAccMag.s" num:
 
-17- "tBodyGyroMag.me"
+15- "tBodyGyroJerkMag.me" num:
 
-18- "tBodyGyroMag.s"
+16- "tBodyGyroJerkMag.s" num:
 
-19- "tGravityAccMag.me"
+17- "tBodyGyroMag.me" num:
 
-20- "tGravityAccMag.s"
+18- "tBodyGyroMag.s" num:
+
+19- "tGravityAccMag.me" num:
+
+20- "tGravityAccMag.s" num:
